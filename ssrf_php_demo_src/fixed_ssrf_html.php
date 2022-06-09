@@ -15,7 +15,8 @@
                                         print_r($r);
                                         if(preg_match('/scalesec\.com$/', $r['host'])) {
                                         echo "<pre>";
-                                        echo htmlentities(file_get_contents($_GET["url"]));
+                                        //https://stackoverflow.com/questions/46483/htmlentities-vs-htmlspecialchars
+                                        echo htmlspecialchars(file_get_contents($_GET["url"]));
                                         echo "</pre>";
                                     }
 
