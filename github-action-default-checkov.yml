@@ -1,0 +1,2 @@
+- name: Checkov GitHub Action
+  uses: bridgecrewio/checkov-action@v12.1347.0
