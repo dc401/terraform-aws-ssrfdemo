@@ -1,0 +1,40 @@
+{
+  "data": {
+    "type":"vars",
+    "attributes": {
+      "key":"AWS_ACCESS_KEY_ID",
+      "value":"some_value",
+      "description":"AWS SSO Imported Access Key",
+      "category":"env",
+      "hcl":false,
+      "sensitive":false
+    }
+  }
+}
+{
+  "data": {
+    "type":"vars",
+    "attributes": {
+      "key":"AWS_SECRET_ACCESS_KEY",
+      "value":"some_value",
+      "description":"AWS SSO Imported Secret Access Key",
+      "category":"env",      
+      "hcl":false,
+      "sensitive":true
+    }
+  }
+}
+{
+  "data": {
+    "type":"vars",
+    "attributes": {
+      "key":"AWS_SESSION_TOKEN",    
+      "value":"some_value",
+      "description":"AWS SSO Imported Session Token",
+      "category":"env",
+      "hcl":false,
+      "sensitive":true 
+    }
+  }
+}
+
