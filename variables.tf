@@ -1,3 +1,4 @@
+#This root level variable is not really needed unless you wish to override other module.s
 variable "region_name" {
   description = "Human friendly name for AWS Regions e.g. us-east-1"
   type        = string
