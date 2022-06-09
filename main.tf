@@ -7,6 +7,7 @@ terraform {
     }
   }
   cloud {
+    #REPLACE WITH YOUR OWN ORG AND WORKSPACE DEPLOYMENT NAMES
     organization = "xtecsystems"
     workspaces {
       name = "test"
