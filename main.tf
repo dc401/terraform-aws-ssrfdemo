@@ -10,7 +10,7 @@ terraform {
     #REPLACE WITH YOUR OWN ORG AND WORKSPACE DEPLOYMENT NAMES
     organization = "xtecsystems"
     workspaces {
-      name = "test"
+      name = "terraform-aws-ssrfdemo"
     }
   }
 }
